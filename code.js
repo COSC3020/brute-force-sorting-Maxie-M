@@ -11,7 +11,7 @@ function permute(a, l, r, count)
     {
         count.value++;
 
-        if (checkedSorted(a)) 
+        if (checkSorted(a)) 
         {
             return true;
         }
