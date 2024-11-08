@@ -51,6 +51,6 @@ most important part. Add your answer to this markdown file.
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
 
 ## Resources 
-**Used these resources in-oder to better understand brute-force sorting and how/why permuations are used for this algorithm** 
+**Used these resources in-order to better understand brute-force sorting and how/why permuations are used for this algorithm** 
 - https://www.freecodecamp.org/news/brute-force-algorithms-explained/
 - https://www.geeksforgeeks.org/print-all-possible-permutations-of-an-array-vector-without-duplicates-using-backtracking/
