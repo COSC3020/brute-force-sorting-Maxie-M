@@ -20,3 +20,37 @@ randomly without memory instead of systematically trying them?
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+## Runtime Analysis, Maxie M. 
+
+**Best Case**
+- In the best-case, this would occur when the input is already sorted
+- If this is the case, only the initial permutation (input itself) needs to be checked
+- Number of permuations checked will be $1$
+- $\text{Best-Case Time Complexity} = O(n)$
+  - Due to the single sorted check
+
+**Worst Case** 
+- In the worst-case, this would occur when the list is not sorted
+- If this is the case, all possible permutations of the list will be checked
+- For an input list of size $n$, the total number of permutations is $n!$ (n factorial)
+
+**Time Complexity** 
+- Algorithm will first generate all permuations of the list
+- For each permuatation, checkSorted function runs $O(n)$ time to verify if list is sorted
+- $\text{Time Complexity} = O(n! \times n)$
+  - In the worst case
+
+**Conclusion** 
+- $\text{Best-Case Time Complexity} = O(n)$
+- $\text{Worst-Case Time Complexity} = O(n! \times n)$
+
+
+## Plagiarism Statement: 
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+## Resources 
+**Used these resources in-order to better understand brute-force sorting and how/why permuations are used for this algorithm** 
+- https://www.freecodecamp.org/news/brute-force-algorithms-explained/
+- https://www.geeksforgeeks.org/print-all-possible-permutations-of-an-array-vector-without-duplicates-using-backtracking/
